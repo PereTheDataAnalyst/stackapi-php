@@ -1,0 +1,20 @@
+{
+    "name": "stackapi/stackapi-php",
+    "description": "Official PHP SDK for StackApi: payments, payouts, messaging, identity, bills, virtual cards, logistics and more behind one key.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["stackapi", "nigeria", "api", "payments", "payouts", "sms", "kyc", "bvn", "nin", "virtual cards", "logistics", "fintech"],
+    "homepage": "https://stackapi.app",
+    "authors": [{ "name": "Stack Technology Limited" }],
+    "require": {
+        "php": ">=8.1",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    }
+}
